@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fender Movies</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+    }
+
+    header {
+        background-color: #111;
+        padding: 20px;
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #0d47a1;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: #111;
+        padding: 12px 0;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 5px;
+        transition: background 0.2s;
+    }
+
+    nav a:hover {
+        background-color: #0d47a1;
+    }
+
+    /* Zoekbalk */
+    .search-container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: #111;
+    }
+
+    .search-container input {
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 1em;
+    }
+
+    .movies {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .movie-card {
+        position: relative;
+        background-color: #111;
+        border: 1px solid #222;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.2s, border 0.2s;
+    }
+
+    .movie-card:hover {
+        transform: scale(1.05);
+        border: 1px solid #0d47a1;
+    }
+
+    .movie-card img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .movie-info {
+        padding: 10px;
+    }
+
+    .movie-info h3 {
+        margin: 5px 0;
+        font-size: 1.2em;
+    }
+
+    .movie-info p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #ccc;
+    }
+
+    /* Overlay voor hover knoppen */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .movie-card:hover .overlay {
+        opacity: 1;
+    }
+
+    .overlay a {
+        padding: 10px 20px;
+        background-color: #0d47a1;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background 0.2s;
+    }
+
+    .overlay a:hover {
+        background-color: #1976d2;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #111;
+        border-top: 2px solid #0d47a1;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<header>Fender Movies</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Popular</a>
+    <a href="#">Genres</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- Zoekbalk -->
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search movies..." onkeyup="searchMovies()">
+</div>
+
+<div class="movies" id="moviesContainer">
+    <div class="movie-card">
+        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10672282_p_v13_aa.jpg" alt="Kingsman The Secret Service">
+        <div class="movie-info">
+            <h3>Kingsman The Secret Service</h3>
+            <p>Year 2014</p>
+        </div>
+        <div class="overlay">
+			<a href="https://xstreamx.films365.org/movie/5de49ceb-1aef-4c3d-96be-5743327293f4/Kingsman:+The+Secret+Service" target="_blank">Stream</a>
+            <a href="https://xdownloaderx.films365.org/movie/5de49ceb-1aef-4c3d-96be-5743327293f4/Kingsman:+The+Secret+Service" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/I/819gSxIonjL._AC_UF894,1000_QL80_.jpg" alt="Kingsman: The Golden Circle">
+        <div class="movie-info">
+            <h3>Kingsman: The Golden Circle</h3>
+            <p>Year 2017</p>
+        </div>
+        <div class="overlay">
+			<a href="https://xstreamx.films365.org/movie/6f639a10-dece-4206-b56d-1edb866e506b/Kingsman:+The+Golden+Circle" target="_blank">Stream</a>
+            <a href="https://xdownloaderx.films365.org/movie/6f639a10-dece-4206-b56d-1edb866e506b/Kingsman:+The+Golden+Circle" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY7WSwQQ0GFs4ialLoLqfMxPJsIPVgqG2o8I0SdDgGikI9owYRH8k-3xAJ27J58inWGYxQra4f4jfAlAdxfQ5DsOFFgbrSGpKKravp2VLv&s=10" alt="The King's Man">
+        <div class="movie-info">
+            <h3>The King's Man</h3>
+            <p>Year 2021</p>
+        </div>
+        <div class="overlay">
+			<a href="https://xstreamx.films365.org/movie/f623f9a3-b113-4fc1-8e46-1d4853e68cad/The+King's+Man" target="_blank">Stream</a>
+            <a href="https://xdownloaderx.films365.org/movie/f623f9a3-b113-4fc1-8e46-1d4853e68cad/The+King's+Man" target="_blank">Download</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Fender Movies. All rights reserved.
+</footer>
+
+<script>
+function searchMovies() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const movies = document.getElementById('moviesContainer').getElementsByClassName('movie-card');
+
+    for (let i = 0; i < movies.length; i++) {
+        const title = movies[i].getElementsByTagName('h3')[0].innerText.toLowerCase();
+        if (title.includes(input)) {
+            movies[i].style.display = "";
+        } else {
+            movies[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
