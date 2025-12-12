@@ -1743,9 +1743,26 @@
                 </div>
             </a>
         </div>
-    <footer>
-        <p>© 2025 LEGO NINJAGO Fan Site FenderMOVIES</p>
-    </footer>
-    
+<footer>
+		None of the movies on this website are hosted by us. We do not support any form of torrenting or illegal files; we only provide redirecting links.
+</footer>
+
+<script>
+function searchMovies() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const movies = document.getElementById('moviesContainer').getElementsByClassName('movie-card');
+
+    for (let i = 0; i < movies.length; i++) {
+        const title = movies[i].getElementsByTagName('h3')[0].innerText.toLowerCase();
+        if (title.includes(input)) {
+            movies[i].style.display = "";
+        } else {
+            movies[i].style.display = "none";
+        }
+    }
+}
+</script>
+
 </body>
 </html>
+
