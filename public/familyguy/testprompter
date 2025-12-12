@@ -49,7 +49,103 @@
 <div class="movies" id="moviesContainer">
 
     <div class="movie-card">
-        <img src="afbeeldinglink" alt="The King's Man">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="https://xstreamx.films365.org/tv/37c8ace5-feb1-4e6a-a2db-30abd9e26597/Family+Guy+S01E01">Stream</a>
+            <a href="https://xdownloaderx.films365.org/tv/37c8ace5-feb1-4e6a-a2db-30abd9e26597/Family+Guy+S01E01" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="streamlink">Stream</a>
+            <a href="Downloadlink" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="streamlink">Stream</a>
+            <a href="Downloadlink" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="streamlink">Stream</a>
+            <a href="Downloadlink" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="streamlink">Stream</a>
+            <a href="Downloadlink" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="streamlink">Stream</a>
+            <a href="Downloadlink" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="streamlink">Stream</a>
+            <a href="Downloadlink" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
+        <div class="movie-info">
+            <h3>S-01 E-01</h3>
+            <p>1999 </p>
+        </div>
+        <div class="overlay">
+            <a href="streamlink">Stream</a>
+            <a href="Downloadlink" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqajM7SZcW6HjVjk8pIFBxWj6NW0ZgSwH9E_P4abw3x6PjVNgS9FgfIdbmSOZHJAUrGa1nQYbqH5fUGzs2tPoJq0FgF0TvLK2_w-zYBqeYQ&s=10" alt="notuploaded yet">
         <div class="movie-info">
             <h3>S-01 E-01</h3>
             <p>1999 </p>
@@ -61,6 +157,7 @@
     </div>
 
 </div>
+
 
 <footer>© 2025 Fender Movies</footer>
 
